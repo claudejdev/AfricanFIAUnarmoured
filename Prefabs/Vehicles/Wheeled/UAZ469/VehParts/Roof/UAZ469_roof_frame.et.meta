@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CB57B46FCFE1A189}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_roof_frame.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

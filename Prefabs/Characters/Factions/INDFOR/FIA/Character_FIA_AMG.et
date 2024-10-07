@@ -1,0 +1,70 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate ""
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{A89BC9D55FFB4CD8}Prefabs/Weapons/MachineGuns/PKM/MG_PKM.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab ""
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{A080C1AEBF921DC4}Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    LoadoutSlotInfo Vest {
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{4F71E7468E78DDD2}Prefabs/Characters/Handwear/Gloves_Leather_01/Gloves_Leather_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_US_BDU_rolledup_02.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5570901146CF1A6B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5570901680F8BFE7}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+     PrefabsToSpawn {
+      "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+     }
+    }
+   }
+  }
+ }
+}

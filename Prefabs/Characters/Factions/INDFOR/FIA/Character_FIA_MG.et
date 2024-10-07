@@ -1,0 +1,46 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault VETERAN
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFDC}" {
+   WeaponTemplate ""
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F6F24096665C6279}Prefabs/Characters/HeadGear/Hat_FlatCap_01/Hat_FlatCap_01_darkgrey_Dirty.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{41A9C55B61F375F0}Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     PrefabsToSpawn {
+      "" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{557090112CC13CA7}" {
+     TargetStorage "Prefabs/Items/Equipment/Backpacks/Backpack_Kolobok.et"
+    }
+    ItemsInitConfigurationItem "{60648233A7DCD17B}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

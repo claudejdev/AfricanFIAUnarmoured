@@ -1,0 +1,6 @@
+SCR_AIGroup : "{242BC3C6BCE96EA5}Prefabs/Groups/INDFOR/Group_FIA_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et" "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et" "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et" "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et"
+ }
+}

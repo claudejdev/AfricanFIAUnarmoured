@@ -1,0 +1,17 @@
+GenericEntity : "{AB2E315D4519F8DE}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/UAZ469_door_L01_bottom.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE7341990551}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{22BC4C1FE33AB47E}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Forest_DrunkenEarthworms.emat"
+    }
+    MaterialAssignClass "{5C7AFE7341990579}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{583A74517FAFD1EB}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_JZD_DrunkenEarthworms.emat"
+    }
+   }
+  }
+ }
+}

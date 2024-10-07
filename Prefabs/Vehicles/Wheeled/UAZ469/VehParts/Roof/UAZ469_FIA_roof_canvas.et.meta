@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{DE64F7587A2A8B7A}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_FIA_roof_canvas.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

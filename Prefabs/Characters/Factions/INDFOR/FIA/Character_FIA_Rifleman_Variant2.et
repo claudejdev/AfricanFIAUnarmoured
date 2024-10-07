@@ -1,0 +1,31 @@
+SCR_ChimeraCharacter : "{14F3FC9F7EF48C85}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant0.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6835DAF42A09E23C}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{DCF980831E880F6A}Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_M88.et"
+    }
+   }
+  }
+ }
+}

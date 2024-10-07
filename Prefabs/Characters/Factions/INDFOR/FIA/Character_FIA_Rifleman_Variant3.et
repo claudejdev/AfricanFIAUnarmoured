@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{14F3FC9F7EF48C85}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant0.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{6064820F8177C8C0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+   }
+  }
+ }
+}

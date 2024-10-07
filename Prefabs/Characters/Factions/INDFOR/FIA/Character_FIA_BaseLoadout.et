@@ -1,0 +1,75 @@
+SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_base.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab ""
+      }
+     }
+    }
+   }
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault ROOKIE
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{443CEFF17E040B11}Prefabs/Weapons/Rifles/VZ58/Rifle_VZ58V.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{04F4D8CBA36A534B}Prefabs/Characters/Heads/Head_Black_02.et"
+     Body "{6253161EEAB88EAB}Prefabs/Characters/Basebody/CharacterBasebody_Black_02.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{8D75122D5BF561FB}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_02.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{F1E29085C62F0D55}Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{86BB79B9A2233780}Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{4C6029AB8BF5C044}Prefabs/Characters/Footwear/CombatBoots_Soviet_01_Dirty.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_KZS/Jacket_KZS.et"
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     PrefabsToSpawn +{
+     }
+    }
+   }
+  }
+ }
+}

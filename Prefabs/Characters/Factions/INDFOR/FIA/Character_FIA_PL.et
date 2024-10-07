@@ -1,0 +1,67 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot WristwatchSlot {
+       Prefab "{61A705D76908160C}Prefabs/Items/Equipment/Watches/Watch_Orlik38/Watch_Orlik38.et"
+      }
+     }
+    }
+   }
+  }
+  ChimeraAIControlComponent "{520EA1D2DB109F34}" {
+   components {
+    SCR_AICombatComponent "{55A2C9BE343B2EA1}" {
+     m_eAISkillDefault EXPERT
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2B29B7E1C6BD1048}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{6835DAF42A09E23C}Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{506EF3B2F0A69D34}Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{6B7F32F1F8A191B0}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+     PrefabsToSpawn {
+      "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_Pilot_USSR_01/Jacket_Pilot_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_NAZ/Vest_NAZ.et"
+     PrefabsToSpawn {
+      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{13772C903CB5E4F7}Prefabs/Items/Equipment/Maps/PaperMap_01_folded.et" "{540C08AD5F21A5FA}Prefabs/Items/Equipment/Radios/Radio_R148_FIA.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6064823EBE518957}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+    }
+    ItemsInitConfigurationItem "{557090107FCD2167}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01_tucked.et"
+     PrefabsToSpawn {
+      "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+   }
+  }
+ }
+}

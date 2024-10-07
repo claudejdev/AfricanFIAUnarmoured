@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{E12126CDE731EED5}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{557090130BCD36B7}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+    ItemsInitConfigurationItem "{6064820F8177C8C0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+Vehicle : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AF5E70267A16E}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{5E99FAD36EC7328F}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_DrunkenEarthworms.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{4ED6AF5F037B83BA}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_DE_Turret.et"
+    }
+   }
+  }
+ }
+}

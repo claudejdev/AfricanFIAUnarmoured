@@ -1,0 +1,17 @@
+GenericEntity : "{2F088A1CDD3FB2F1}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_repair_box.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5D18F34C08536661}" {
+     SourceMaterial "Ural_4320_Repair_Exterior_B8E9F7A30F1A9999"
+     AssignedMaterial "{83845B3A6E2BCEE3}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_FIA_NoPattern.emat"
+    }
+    MaterialAssignClass "{5D647E49EAA9B73B}" {
+     SourceMaterial "Ural_4320_RepairDecals_B8E9F7A30F1A9998"
+     AssignedMaterial "{328CD975AE274B12}Assets/Vehicles/Wheeled/Ural4320/VehParts/Data/Ural_4320_Decals_Repair_FIA.emat"
+    }
+   }
+  }
+ }
+}

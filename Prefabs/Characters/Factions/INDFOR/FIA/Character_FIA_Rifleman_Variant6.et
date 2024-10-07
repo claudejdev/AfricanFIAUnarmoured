@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{14F3FC9F7EF48C85}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant0.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{793EEE2C133176F9}Prefabs/Characters/HeadGear/Hat_Panama_Soviet/Hat_Panama_Soviet_01_v1.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CC2BAD4EACC9B2CA}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    LoadoutSlotInfo Pants {
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{6064820F8177C8C0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+     PrefabsToSpawn {
+     }
+    }
+   }
+  }
+ }
+}

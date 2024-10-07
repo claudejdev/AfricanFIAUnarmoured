@@ -1,0 +1,13 @@
+GenericEntity : "{96C3B0980A16D7E3}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_canvas_closed.et" {
+ ID "7782E7168503CFC1"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE7076D69CCA}" {
+     SourceMaterial "Ural_4320_canvas"
+     AssignedMaterial "{393B84BEB74B485E}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Canvas_JZD_DrunkenEarthworms.emat"
+    }
+   }
+  }
+ }
+}

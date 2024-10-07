@@ -1,0 +1,27 @@
+Vehicle : "{99F1610551D54D17}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5EA6B711A86EBD76}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{22BC4C1FE33AB47E}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Forest_DrunkenEarthworms.emat"
+    }
+    MaterialAssignClass "{5EA6B711A86EBD7E}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{583A74517FAFD1EB}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_JZD_DrunkenEarthworms.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L02 {
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+    }
+    RegisteringComponentSlotInfo Weapon {
+    }
+   }
+  }
+ }
+}

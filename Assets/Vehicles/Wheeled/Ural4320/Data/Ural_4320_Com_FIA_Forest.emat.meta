@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6BFBF1F114BA4EE9}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_FIA_Forest.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,74 @@
+SCR_ChimeraCharacter : "{DE3786C0C6C978D4}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{624EF1E5EFA4390E}" {
+    m_bRandomizeDefaultVariant 0
+    m_aVariants {
+     SCR_EditableEntityVariant "{624EF1E5EFA43AF7}" {
+      m_sVariantPrefab "{14F3FC9F7EF48C85}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant0.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AEE}" {
+      m_sVariantPrefab "{F16FB06672111BEE}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant1.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AE1}" {
+      m_sVariantPrefab "{9D3B8486CED594C0}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant2.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AE4}" {
+      m_sVariantPrefab "{78A7C87FC23003AB}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant3.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AD9}" {
+      m_sVariantPrefab "{4593ED47B75C8A9C}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant4.et"
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43ADC}" {
+      m_sVariantPrefab "{A00FA1BEBBB91DF7}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant5.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AD2}" {
+      m_sVariantPrefab "{CC5B955E077D92D9}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant6.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AD0}" {
+      m_sVariantPrefab "{29C7D9A70B9805B2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant7.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624EF1E5EFA43AD5}" {
+      m_sVariantPrefab "{B633DF2EEDA480B7}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant8.et"
+      m_iRandomizerWeight 42
+     }
+     SCR_EditableEntityVariant "{624F002343A64E0B}" {
+      m_sVariantPrefab "{53AF93D7E14117DC}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant9.et"
+      m_iRandomizerWeight 42
+     }
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{2B29B7E1C6BD1048}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_v1.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{557090130BCD36B7}" {
+     TargetStorage "Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+     PrefabsToSpawn {
+      "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{A827B610B7CD4158}Prefabs/Weapons/Magazines/Vz58/Magazine_762x39_Vz58_30rnd_Last_5Tracer.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6064820F8177C8C0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
+    }
+   }
+  }
+ }
+}

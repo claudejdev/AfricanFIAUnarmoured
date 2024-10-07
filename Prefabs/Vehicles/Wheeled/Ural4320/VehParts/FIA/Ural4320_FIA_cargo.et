@@ -1,0 +1,13 @@
+GenericEntity : "{58B3FB7F102A8B1B}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_cargo.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE700E3DBC29}" {
+     SourceMaterial "base1"
+     AssignedMaterial "{7245ECACCFE565A3}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Cargo_FIA_DrunkenEarthworms.emat"
+    }
+   }
+  }
+ }
+}

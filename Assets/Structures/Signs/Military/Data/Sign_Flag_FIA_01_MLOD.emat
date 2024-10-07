@@ -1,0 +1,5 @@
+MatPBRBasic {
+ Color 0.456 0.456 0.456 1
+ MetalnessScale 0
+ BCRMap "{77B2BDFE90154289}Assets/Structures/Signs/Military/Data/Sign_Flag_FIA_01_BCR.edds"
+}

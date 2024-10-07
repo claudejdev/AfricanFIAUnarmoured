@@ -1,0 +1,18 @@
+Vehicle : "{1C5FE7B7FF49BB8D}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Base.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AF5E70267A16E}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{8F718BB17EA4CCC7}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_FIA_DrunkenEarthworms.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "BTR-70 (FIA)"
+   }
+  }
+ }
+}

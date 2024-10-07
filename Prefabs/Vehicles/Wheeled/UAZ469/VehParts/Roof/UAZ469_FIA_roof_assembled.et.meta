@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{AF95FC1769436543}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Roof/UAZ469_FIA_roof_assembled.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

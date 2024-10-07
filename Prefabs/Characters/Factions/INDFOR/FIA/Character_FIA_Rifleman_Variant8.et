@@ -1,0 +1,37 @@
+SCR_ChimeraCharacter : "{14F3FC9F7EF48C85}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant0.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F545C1BE7C99954A}Prefabs/Characters/HeadGear/Hat_Patrol_US_01/Hat_Patrol_US_01.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{CC2BAD4EACC9B2CA}Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{83DFA8F68CA40B10}Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{203EEA924B049EF1}Prefabs/Characters/Footwear/JungleBoots_01/JungleBoots_01.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00E}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{5D7CC173FAA7C00C}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Jacket_TAZ83/Jacket_TAZ83_01.et"
+    }
+    ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01.et"
+    }
+    ItemsInitConfigurationItem "{6064820F8177C8C0}" {
+     TargetStorage "Prefabs/Characters/Uniforms/Pants_Pilot_USSR_01/Pants_Pilot_USSR_01.et"
+    }
+   }
+  }
+ }
+}

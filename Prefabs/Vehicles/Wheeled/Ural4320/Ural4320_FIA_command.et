@@ -1,0 +1,17 @@
+Vehicle : "{1BABF6B33DA0AEB6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{627B59E98B771A99}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{BA4D9A6D7687D59F}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Forest_DrunkenEarthworms.emat"
+    }
+    MaterialAssignClass "{627B59E98B771A73}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{9EB50DE42AFC064F}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_FIA_DrunkenEarthworms.emat"
+    }
+   }
+  }
+ }
+}

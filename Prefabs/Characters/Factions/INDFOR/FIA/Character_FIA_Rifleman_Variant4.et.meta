@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4593ED47B75C8A9C}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman_Variant4.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

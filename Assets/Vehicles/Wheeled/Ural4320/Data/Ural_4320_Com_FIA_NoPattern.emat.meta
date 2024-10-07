@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{83845B3A6E2BCEE3}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_FIA_NoPattern.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

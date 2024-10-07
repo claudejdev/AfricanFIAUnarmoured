@@ -1,0 +1,13 @@
+GenericEntity : "{21FD6DEA2F771C1C}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ural4320_combox_spawn.et" {
+ ID "5206D4E7CE97EC05"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{5E3EA494B820F29D}" {
+     SourceMaterial "Ural_4320_Com_Exterior"
+     AssignedMaterial "{83845B3A6E2BCEE3}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Com_FIA_NoPattern.emat"
+    }
+   }
+  }
+ }
+}

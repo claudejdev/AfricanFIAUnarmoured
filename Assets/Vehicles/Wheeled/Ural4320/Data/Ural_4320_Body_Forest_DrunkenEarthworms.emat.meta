@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{BA4D9A6D7687D59F}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Forest_DrunkenEarthworms.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7245ECACCFE565A3}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Cargo_FIA_DrunkenEarthworms.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
