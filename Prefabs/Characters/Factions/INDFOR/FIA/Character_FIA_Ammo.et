@@ -3,9 +3,9 @@ SCR_ChimeraCharacter : "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA
  components {
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "#AR-Role_AC_Grenadier"
-    Icon "{DDAEEF112BEBCF94}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Grenadier.edds"
-    m_Image "{0F590A8AC7FA6047}UI/Textures/EditorPreviews/Characters/INDFOR/FIA/Character_FIA_Randomized.edds"
+    Name "Grenade Gofer"
+    Icon "{B8B486DED07773EC}UI/Textures/FieldManual/Gameplay/Weapons/Tiles/grenade_ui.edds"
+    m_Image "{CB6C41D53D87C8F5}UI/Textures/FieldManual/Gameplay/Weapons/Images/grenade-unpin_UI.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {

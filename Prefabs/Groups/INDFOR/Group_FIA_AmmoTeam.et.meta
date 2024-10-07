@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{37FF769500E5C13C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V2_FIA.et"
+ Name "{C1E39427E43B1E79}Prefabs/Groups/INDFOR/Group_FIA_AmmoTeam.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

@@ -1,0 +1,52 @@
+SCR_ChimeraCharacter : "{45A02CA25CBA9443}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Medic.et" {
+ coords 3119.851 1.274 3358.902
+ angleY -175.184
+}
+SCR_ChimeraCharacter : "{48F96834C3289E04}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Ammo.et" {
+ coords 3122.903 1.322 3358.857
+ angleY -175.184
+}
+Vehicle BTR70_DE1 : "{564092D75F3DB2CD}Prefabs/Vehicles/Wheeled/BTR70/BTR70_DE.et" {
+ coords 3121.602 1.476 3365.449
+ angleY -170.816
+}
+SCR_ChimeraCharacter : "{677B515F119222C2}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_SL.et" {
+ coords 3117.353 1.227 3359.586
+ angleY -175.184
+}
+SCR_ChimeraCharacter : "{75FC25863194612A}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AMG.et" {
+ coords 3121.292 1.288 3358.561
+ angleY -175.184
+}
+SCR_ChimeraCharacter : "{84B40583F4D1B7A3}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Rifleman.et" {
+ coords 3118.721 1.255 3359.431
+ angleY -175.184
+}
+Vehicle BTR70_FIA1 : "{B47110AA1A806556}Prefabs/Vehicles/Wheeled/BTR70/BTR70_FIA.et" {
+ coords 3126.844 1.502 3363.655
+ angleY -142.252
+}
+Vehicle Ural4320_FIA_transport_covered1 : "{B70E6D12A8EC2410}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_transport_covered.et" {
+ coords 3109.252 1.129 3362.997
+ angleY 112.41
+}
+SCR_ChimeraCharacter : "{CE33AB22F61F3365}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_Sharpshooter.et" {
+ coords 3116.302 1.214 3359.708
+ angleY -175.184
+}
+SCR_ChimeraCharacter : "{D25BC9815A9F9E8D}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AT.et" {
+ coords 3124.214 1.32 3358.154
+ angleY -175.184
+}
+Vehicle BTR70_1 : "{F1D5146A29695B72}Prefabs/Vehicles/Wheeled/BTR70/BTR70_01.et" {
+ coords 3115.539 1.355 3365.807
+ angleY 147.845
+}
+Vehicle UAZ469_FIA1 : "{F7E9AA0C813EABDA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA.et" {
+ coords 3130.741 1.499 3361.909
+ angleY -118.217
+}
+SCR_ChimeraCharacter : "{FF43925D26526B95}Prefabs/Characters/Factions/INDFOR/FIA/Character_FIA_AAT.et" {
+ coords 3125.344 1.35 3358.529
+ angleY -175.184
+}

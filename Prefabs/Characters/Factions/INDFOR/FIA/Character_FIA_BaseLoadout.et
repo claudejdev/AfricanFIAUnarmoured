@@ -66,7 +66,7 @@ SCR_ChimeraCharacter : "{7A9EE19AB67B298B}Prefabs/Characters/Factions/INDFOR/FIA
     }
     ItemsInitConfigurationItem "{624E6CD4ECE55C73}" {
      TargetStorage "Prefabs/Characters/Uniforms/Pants_US_M65.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
    }
