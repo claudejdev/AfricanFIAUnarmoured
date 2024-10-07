@@ -1,6 +1,6 @@
 # Unarmoured African FIA Replacement
 
-[Unarmoured African FIA Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/624A8B96AA67EFEB-ATMAfricanFIAReplacement)
+[Unarmoured African FIA Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/628EADAA424F77A0-AfricanFIAUnarmoured)
 
 Sister mod of the [African FIA Replacement - Arma Reforger Workshop](https://reforger.armaplatform.com/workshop/624A8B96AA67EFEB-ATMAfricanFIAReplacement).
 
