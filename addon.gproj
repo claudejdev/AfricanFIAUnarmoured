@@ -1,12 +1,76 @@
 GameProject {
- ID "AfricanFIAUnarmoured"
+ ID "LionheartLiberationArmy"
  GUID "628EADAA424F77A0"
- TITLE "Unarmoured African FIA Replacement"
+ TITLE "Lionheart Liberation Army"
  Dependencies {
   "58D0FB3206B6F859"
  }
  Configurations {
   GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{62CE126A83A0898B}" {
+      StringTableSource "{B5D84AB912A62C41}Language/LLA_localization.st"
+      Languages {
+       LanguageDefinition "{62CE126A81F6BCFB}" {
+        Code "cs_cz"
+        StringTableRuntime "{82E8165CC7443243}Language/LLA_localization.cs_cz.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BCB4}" {
+        Code "de_de"
+        StringTableRuntime "{57960C6FD4E72363}Language/LLA_localization.de_de.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC90}" {
+        Code "en_us"
+        StringTableRuntime "{09668624BE142662}Language/LLA_localization.en_us.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC7D}" {
+        Code "es_es"
+        StringTableRuntime "{CC2ACBAD50164D7D}Language/LLA_localization.es_es.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC59}" {
+        Code "fr_fr"
+        StringTableRuntime "{77823E9AB695AE7F}Language/LLA_localization.fr_fr.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC3B}" {
+        Code "it_it"
+        StringTableRuntime "{F79EB1AE1BB72D86}Language/LLA_localization.it_it.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC21}" {
+        Code "ja_jp"
+        LanguageGroup EastAsian
+        StringTableRuntime "{E7850C3C25C61D2D}Language/LLA_localization.ja_jp.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BC0D}" {
+        Code "ko_kr"
+        LanguageGroup EastAsian
+        StringTableRuntime "{473B2490B6EB1E12}Language/LLA_localization.ko_kr.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BDEB}" {
+        Code "pl_pl"
+        StringTableRuntime "{1B4A826A0804826E}Language/LLA_localization.pl_pl.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BDD4}" {
+        Code "pt_br"
+        StringTableRuntime "{CE3D18A633FA48D4}Language/LLA_localization.pt_br.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BDA9}" {
+        Code "ru_ru"
+        StringTableRuntime "{9B7C0C0EAE832DA2}Language/LLA_localization.ru_ru.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BD8E}" {
+        Code "uk_ua"
+        StringTableRuntime "{112459F8C2AD93F7}Language/LLA_localization.uk_ua.conf"
+       }
+       LanguageDefinition "{62CE126A81F6BEA2}" {
+        Code "zh_cn"
+        LanguageGroup EastAsian
+        StringTableRuntime "{CB9437C5FB0D43EA}Language/LLA_localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
   }
   GameProjectConfig XBOX_ONE {
   }

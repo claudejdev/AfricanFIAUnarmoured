@@ -1,12 +1,6 @@
-MatPBRDecal {
- Color 0 0.127 0.036 1
- DiffuseIBL 0 0.127 0.036 1
- SpecularIBL 0 0.127 0.036 1
- Diffuse 0 0.127 0.036 1
- Emissive 0 0.127 0.036 0
- Specular 0 0.127 0.036 1
+MatPBRDecal : "{66F803693C8814A2}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_FIA.emat" {
  BlendMode AlphaBlend
  MetalnessScale 0
- BCRMap "{0BE876E343737D34}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_FIA_BCR.edds"
+ BCRMap "{AB286D536F073025}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_LLA_A.edds"
  OpacityMap "{21B074B11633A2C4}Assets/Vehicles/Wheeled/UAZ469/Data/Coat_of_arms_FIA_A.edds"
 }
